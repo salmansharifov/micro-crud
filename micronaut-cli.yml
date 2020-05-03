@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.salman
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [app-name, docker, gradle, http-client, java, java-application, junit, logback, netty-server, readme, shade, yaml]
