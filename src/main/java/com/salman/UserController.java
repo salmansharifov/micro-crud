@@ -17,7 +17,7 @@ public class UserController {
     }
 
     @Get("/{id}")
-    Optional<User> findByID(@PathVariable("id") int id) {
+    Optional<User> findByID(int id) {
         return userService.findByID(id);
     }
 
